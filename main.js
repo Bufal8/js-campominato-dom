@@ -32,7 +32,12 @@ bottoneGioco.addEventListener('click',
     }
 )
 
-
+const bottoneReset = document.getElementById("bottone-reset");
+bottoneReset.addEventListener('click',
+    function(){
+        squareElement.innerHTML = "" 
+    }
+);
 
 
 
